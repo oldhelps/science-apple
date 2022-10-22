@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+#abc{
+    width: 500px;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 40%;
+}
+p.de{
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    color:white;
+}
