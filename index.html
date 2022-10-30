@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="zh-CN">
 <head>
@@ -8,12 +9,15 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/1.png">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="./ad/ad.css">
+    <script src="./ad/ad.js"></script>
 <meta name="description" content="科学apple的个人主页">
 <meta name="keywords" content="科学apple">
 </head>
 <body>
   <header>
-    <h1>科学apple</h1>
+    <h1>科学Apple<img src="./img/1.png" alt="" id="abc" class="img" ></h1>
     
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 
@@ -25,24 +29,31 @@
       <li class="nav-item">
         <a class="nav-link" href="#">主页</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">SUPRENEWYEAR</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">NYPT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">NEWYEARPRO</a>
-      </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+       SUPRENEWYEAR
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="./hjkjhkjh.htm">NYPT</a>
+        <a class="dropdown-item" href="./jhghjghj.htm">NEWYEARPRO</a>
+      </div>
+    </li>
     </ul>
   </div> 
 </nav>
   </header>
   <main>
- <img src="./img/1.png" alt="" id="abc" >
  <p class="de">
   喜欢Arduino的少年，更喜欢春节 
  </p>
+ <div class="ad">
+  <div id="header">
+    广告 <button id="c">&times;</button>
+  </div>
+  <div class="adb">
+    OLD HELPS 网页定制
+  </div>
+ </div>
   </main>
   <footer>
             &copy;2022 科学apple
@@ -55,6 +66,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+
 </body>
 
 </html>
